@@ -1,0 +1,114 @@
+body {
+  font-family: arial;
+  background-color: rgb(209, 209, 209);
+}
+a {
+  color: aliceblue;
+  padding-right: 45px;
+}
+.bar {
+  text-align: center;
+  background-color: #0387e7;
+  padding-bottom: 36px;
+  padding-top: 20px;
+  border-bottom: 2px solid rgb(8, 8, 8);
+  width: 100%;
+}
+.logo {
+  text-align: center;
+  width: 10%;
+  margin: auto;
+}
+
+.bar2 {
+  text-align: left;
+  background-color: #0067b1;
+  padding-bottom: 25px;
+  display: inline-block;
+  padding-left: 20px;
+  width: 100%;
+}
+.black {
+  color: black;
+}
+.bar3 {
+  padding-left: 20px;
+  text-align: left;
+  background-color: rgb(172, 172, 172);
+  padding-bottom: 19px;
+
+  width: 100%;
+}
+
+.sec1 {
+  text-align: left;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  padding: 19px;
+  display: inline-block;
+}
+
+.card1 {
+  background-color: white;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+.card2 {
+  width: 80%;
+  background-color: white;
+  margin-bottom: 20px;
+  padding-bottom: 80px;
+  padding: 20px 20px 50px 20px;
+}
+
+.dbt {
+  width: 70%;
+  height: 30%;
+  background-color: rgb(224, 224, 224);
+
+  padding-left: 18px;
+  padding-right: 18px;
+
+  border: 1px solid black;
+  margin: 20px 20px 20px 20px;
+}
+
+.card3 {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px;
+
+  padding: 20px 20px 20px;
+  border-top: 7px solid rgb(1, 1, 138);
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cust {
+  width: 20%;
+}
+
+.gery {
+  color: gray;
+}
+
+.bttn {
+  padding: 3px 32px;
+  background-color: #afafaf; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+}

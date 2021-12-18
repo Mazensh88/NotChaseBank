@@ -1,0 +1,171 @@
+body {
+  background-color: F9F9F9;
+  font-family: arial;
+}
+
+button.bttn {
+  font-size: medium;
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+button.btn:hover {
+  background: transparent;
+  box-shadow: 0px 0px 2px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px;
+  border-bottom: 2px solid blue;
+}
+
+button.btn:active {
+  outline: auto;
+  border: 1px;
+}
+
+button.btn:focus {
+  outline: 0;
+}
+.nav1 {
+  margin: 10px 30px 20px 40px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 10%;
+}
+
+.mainMid {
+  background-color: 0067b1;
+  text-emphasis-color: white;
+  display: grid;
+  grid-column-gap: 60px;
+  grid-template-columns: auto auto;
+  padding: 0px;
+}
+.white {
+  color: white;
+}
+.white1 {
+  color: white;
+  font-size: large;
+}
+
+.image {
+  width: 28%;
+  margin-left: 13%;
+  margin-top: 6%;
+  float: left;
+}
+.div1 {
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.div2 {
+  flex: auto;
+  float: right;
+  margin-top: 10%;
+  margin-right: 50%;
+}
+.div3 {
+  flex: auto;
+  float: right;
+  margin-top: 10%;
+  margin-right: 70%;
+}
+p.b2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 11px;
+
+  color: #ffffff;
+}
+p.b1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.box {
+  margin-left: 25%;
+  width: 60%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.wel {
+  text-align: left;
+
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.txt {
+  margin-left: 10%;
+
+  width: auto;
+  font-family: arial;
+  text-align: left;
+}
+
+.btn2 {
+  background-color: #00822c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+}
+.btn2:hover {
+  background: darkgreen;
+  color: White;
+}
+
+.btn3 {
+  background-color: #0051b1;
+  color: white;
+  padding: 13px 66px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.btn3:hover {
+  background: darkblue;
+  color: White;
+}
+
+input {
+  width: 80%;
+  padding: 18px 20px;
+
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #777;
+}
+
+.error {
+  text-align: center;
+  font-size: small;
+
+  color: red;
+}
